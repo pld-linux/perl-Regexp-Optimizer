@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Optimizer
+%define		pdir	Regexp
+%define		pnam	Optimizer
 Summary:	Regexp::Optimizer - builds regular expressions out of a list of words
 Summary(pl):	Regexp::Optimizer - tworzenie wyra¿eñ regularnych z listy s³ów
 Name:		perl-Regexp-Optimizer
