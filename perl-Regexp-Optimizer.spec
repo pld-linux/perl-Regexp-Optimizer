@@ -8,13 +8,13 @@
 Summary:	Regexp::Optimizer - builds regular expressions out of a list of words
 Summary(pl):	Regexp::Optimizer - tworzenie wyra¿eñ regularnych z listy s³ów
 Name:		perl-Regexp-Optimizer
-Version:	0.13
+Version:	0.14
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c90566783b9ee6498c88d4b1b66c5f88
+# Source0-md5:	ad6e38b9dbe654717052d49b46316169
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
