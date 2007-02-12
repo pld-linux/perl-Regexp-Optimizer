@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Optimizer
 Summary:	Regexp::Optimizer - builds regular expressions out of a list of words
-Summary(pl):	Regexp::Optimizer - tworzenie wyraøeÒ regularnych z listy s≥Ûw
+Summary(pl.UTF-8):   Regexp::Optimizer - tworzenie wyra≈ºe≈Ñ regularnych z listy s≈Ç√≥w
 Name:		perl-Regexp-Optimizer
 Version:	0.15
 Release:	1
@@ -26,11 +26,11 @@ optimized regular expression which matches all words therein. The
 optimized regular expression is much more efficient than a
 simple-minded '|'-concatenation thereof.
 
-%description -l pl
-Ten modu≥ udostÍpnia metodÍ list2re, ktÛra zamienia listÍ s≥Ûw na
-zoptymalizowane wyraøenie regularne, ktÛre pasuje do podanych s≥Ûw.
-Wyraøenie zoptymalizowane jest bardziej wydajne niø proste po≥±czenie
-s≥Ûw znakami '|'.
+%description -l pl.UTF-8
+Ten modu≈Ç udostƒôpnia metodƒô list2re, kt√≥ra zamienia listƒô s≈Ç√≥w na
+zoptymalizowane wyra≈ºenie regularne, kt√≥re pasuje do podanych s≈Ç√≥w.
+Wyra≈ºenie zoptymalizowane jest bardziej wydajne ni≈º proste po≈ÇƒÖczenie
+s≈Ç√≥w znakami '|'.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
