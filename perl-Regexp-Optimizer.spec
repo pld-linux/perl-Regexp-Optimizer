@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Regexp
 %define		pnam	Optimizer
+%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Optimizer - builds regular expressions out of a list of words
 Summary(pl.UTF-8):	Regexp::Optimizer - tworzenie wyrażeń regularnych z listy słów
 Name:		perl-Regexp-Optimizer
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f44212198ae95f33a836002a0123007f
+URL:		http://search.cpan.org/dist/Regexp-Optimizer/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -48,7 +49,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-install eg/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p eg/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
