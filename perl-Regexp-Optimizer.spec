@@ -4,7 +4,6 @@
 
 %define		pdir	Regexp
 %define		pnam	Optimizer
-%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Optimizer - builds regular expressions out of a list of words
 Summary(pl.UTF-8):	Regexp::Optimizer - tworzenie wyrażeń regularnych z listy słów
 Name:		perl-Regexp-Optimizer
