@@ -8,7 +8,7 @@ Summary:	Regexp::Optimizer - builds regular expressions out of a list of words
 Summary(pl.UTF-8):	Regexp::Optimizer - tworzenie wyrażeń regularnych z listy słów
 Name:		perl-Regexp-Optimizer
 Version:	0.15
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
